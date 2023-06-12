@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5c3038fcbd.js" crossorigin="anonymous"></script>
+    <style>
+        .login-container{
+display: flex;
+justify-content: center;
+        }
+        .login-form{
+            display: flex;
+             flex-direction: column;
+         }
+         .login-form, button, input{
+            font-size: 1.3em;
+         }
+         #button{
+            background-color: #da552d;
+            color: aliceblue;
+            font-weight: 700;
+         }
+         nav a{
+text-decoration: none;
+padding-left: 10px;
+font-size: 1.3em;
+         }
+         nav{
+            display: flex;
+            justify-content: space-between;
+         }
+    </style>
+ </head>
+ <body>
+    <header>
+      <nav>
+         <span>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">galary</a>
+         </span>
+         
+         <span>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+         </span>
+      </nav>
+     </header>
+
+
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h2>login</h2>
+            <input type="email" name="email" id="">
+            <input type="password" name="password" id="">
+           <button id="button" type="submit">login</button>
+        </form>
+    </section>
+ </body>
+ </html>
