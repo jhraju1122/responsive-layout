@@ -13,6 +13,7 @@
             width: 300px;
             height: 250px;
             border: 3px solid #cc6868;
+            overflow: hidden;
         }
         .photo{
             position: relative;
@@ -21,6 +22,7 @@
     width: 100%;
 }
 .photo-details{
+    
     position: absolute;
     width: 300px;
     top: 0;
@@ -30,11 +32,17 @@
 display: block;
 background-color: #f1f1f176;
 }
+
 h3{
     background-color: #0000006f;
     color: beige;
     text-align: center;
 }
+.frame:hover .photo{
+    transform: scale(1.5) skew(-30deg) ;
+    transition: transform 2s ease-in-out;
+}
+
     </style>
  </head>
  <body>
